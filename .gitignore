@@ -1,0 +1,43 @@
+# Model weights (excluded for size — see README)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Note: models/args.yaml, labels.jpg and train_batch*.jpg are tracked on purpose.
+
+# Ultralytics training output
+runs/
+wandb/
+datasets/
+ppe-data/
+
+# Flask runtime
+static/uploads/
+instance/
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*Zone.Identifier
+.idea/
+.vscode/
